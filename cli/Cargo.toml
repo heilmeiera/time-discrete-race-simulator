@@ -1,0 +1,19 @@
+[package]
+name = "cli"
+version = "0.1.0"
+authors = ["Alexander Heilmeier <alexander.heilmeier@tum.de>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Command line interface for a time-discrete race simulator"
+repository = "https://github.com/heilmeiera"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+racesim = { path = "../racesim" }
+gui = { path = "../gui" }
+rayon = "1.5"
+anyhow = "1.0"
+eframe = "0.14" # egui, epi, web+native backends
+clap = "3.0.0-beta.4"
+flume = "0.10.9"

@@ -1,0 +1,16 @@
+[package]
+name = "helpers"
+version = "0.1.0"
+authors = ["Alexander Heilmeier <alexander.heilmeier@tum.de>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Helper functions used in a time-discrete race simulator"
+repository = "https://github.com/heilmeiera"
+include = ["src/**/*.rs", "LICENSE-APACHE", "LICENSE-MIT"]
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+approx = "0.5.0"
+serde = { version = "1.0", features = ["derive"] }

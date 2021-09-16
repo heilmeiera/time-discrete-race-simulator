@@ -1,0 +1,21 @@
+[package]
+name = "gui"
+version = "0.1.0"
+authors = ["Alexander Heilmeier <alexander.heilmeier@tum.de>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+description = "Graphical user interface for a time-discrete race simulator"
+repository = "https://github.com/heilmeiera"
+include = ["src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+racesim = { path = "../racesim" }
+helpers = { path = "../helpers" }
+csv = "1.1"
+eframe = "0.14" # egui, epi, web+native backends
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+flume = "0.10.9"

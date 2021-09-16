@@ -1,0 +1,365 @@
+{
+  "race_pars": {
+    "season": 2017,
+    "tot_no_laps": 55,
+    "min_t_dist": 0.5,
+    "t_duel": 0.3,
+    "t_overtake_loser": 0.3,
+    "use_drs": true,
+    "drs_window": 1.0,
+    "drs_allowed_lap": 3,
+    "participants": [
+      44,
+      77,
+      5,
+      7,
+      3,
+      33
+    ]
+  },
+  "track_pars": {
+    "name": "YasMarina",
+    "t_q": 96.23,
+    "t_gap_racepace": 3.67,
+    "s_mass": 0.033,
+    "t_drseffect": -0.69,
+    "pit_speedlimit": 22.222,
+    "t_loss_firstlap": 2.5,
+    "d_per_gridpos": -8.0,
+    "d_first_gridpos": -4.0,
+    "length": 5554.0,
+    "s12": 1205.0,
+    "s23": 3655.0,
+    "drs_measurement_points": [
+      1455.0,
+      2900.0
+    ],
+    "turn_1": 385.0,
+    "real_length_pit_zone": 949.0,
+    "pit_zone": [
+      5375.0,
+      770.0
+    ],
+    "pits_aft_finishline": true,
+    "overtaking_zones": [
+      [
+        1955.0,
+        2700.0
+      ],
+      [
+        3117.0,
+        3730.0
+      ]
+    ]
+  },
+  "driver_pars_all": {
+    "BOT": {
+      "initials": "BOT",
+      "name": "Valtteri Bottas",
+      "t_driver": 0.1,
+      "t_teamorder": 0.1,
+      "vel_max": 329.5,
+      "degr_pars_all": {
+        "A5": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.0,
+          "k_1_lin": 0.02
+        },
+        "A4": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.6,
+          "k_1_lin": 0.02
+        }
+      }
+    },
+    "HAM": {
+      "initials": "HAM",
+      "name": "Lewis Hamilton",
+      "t_driver": 0.0,
+      "t_teamorder": -0.1,
+      "vel_max": 336.3,
+      "degr_pars_all": {
+        "A5": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.0,
+          "k_1_lin": 0.02
+        },
+        "A4": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.9,
+          "k_1_lin": 0.03
+        }
+      }
+    },
+    "RIC": {
+      "initials": "RIC",
+      "name": "Daniel Ricciardo",
+      "t_driver": 0.0,
+      "t_teamorder": 0.0,
+      "vel_max": 309.2,
+      "degr_pars_all": {
+        "A5": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.0,
+          "k_1_lin": 0.05
+        },
+        "A4": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.556,
+          "k_1_lin": 0.05
+        }
+      }
+    },
+    "VER": {
+      "initials": "VER",
+      "name": "Max Verstappen",
+      "t_driver": 0.637,
+      "t_teamorder": 0.0,
+      "vel_max": 332.3,
+      "degr_pars_all": {
+        "A5": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.0,
+          "k_1_lin": 0.018
+        },
+        "A4": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.127,
+          "k_1_lin": 0.036
+        }
+      }
+    },
+    "VET": {
+      "initials": "VET",
+      "name": "Sebastian Vettel",
+      "t_driver": 0.0,
+      "t_teamorder": -0.1,
+      "vel_max": 314.7,
+      "degr_pars_all": {
+        "A5": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.0,
+          "k_1_lin": 0.02
+        },
+        "A4": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.868,
+          "k_1_lin": 0.013
+        }
+      }
+    },
+    "RAI": {
+      "initials": "RAI",
+      "name": "Kimi Raikkonen",
+      "t_driver": 0.307,
+      "t_teamorder": 0.1,
+      "vel_max": 318.4,
+      "degr_pars_all": {
+        "A5": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.0,
+          "k_1_lin": 0.029
+        },
+        "A4": {
+          "degr_model": "lin",
+          "t_add_coldtires": 1.0,
+          "k_0": 0.29,
+          "k_1_lin": 0.039
+        }
+      }
+    }
+  },
+  "car_pars_all": {
+    "44": {
+      "car_no": 44,
+      "team": "Mercedes",
+      "manufacturer": "Mercedes",
+      "color": "#00D2BE",
+      "t_car": 0.0,
+      "m_fuel": 100.0,
+      "b_fuel_per_lap": 1.78,
+      "t_pit_refuel_per_kg": null,
+      "t_pit_tirechange": 2.349,
+      "t_pit_driverchange": null,
+      "pit_location": 50.0,
+      "strategy": [
+        {
+          "inlap": 0,
+          "compound": "A5",
+          "tire_start_age": 2,
+          "refuel_mass": 0.0,
+          "driver_initials": "HAM"
+        },
+        {
+          "inlap": 24,
+          "compound": "A4",
+          "tire_start_age": 0,
+          "refuel_mass": 0.0,
+          "driver_initials": ""
+        }
+      ],
+      "p_grid": 2
+    },
+    "77": {
+      "car_no": 77,
+      "team": "Mercedes",
+      "manufacturer": "Mercedes",
+      "color": "#00D2BE",
+      "t_car": 0.0,
+      "m_fuel": 100.0,
+      "b_fuel_per_lap": 1.78,
+      "t_pit_refuel_per_kg": null,
+      "t_pit_tirechange": 2.349,
+      "t_pit_driverchange": null,
+      "pit_location": 50.0,
+      "strategy": [
+        {
+          "inlap": 0,
+          "compound": "A5",
+          "tire_start_age": 2,
+          "refuel_mass": 0.0,
+          "driver_initials": "BOT"
+        },
+        {
+          "inlap": 21,
+          "compound": "A4",
+          "tire_start_age": 0,
+          "refuel_mass": 0.0,
+          "driver_initials": ""
+        }
+      ],
+      "p_grid": 1
+    },
+    "5": {
+      "car_no": 5,
+      "team": "Ferrari",
+      "manufacturer": "Ferrari",
+      "color": "#DC0000",
+      "t_car": 0.37,
+      "m_fuel": 100.0,
+      "b_fuel_per_lap": 1.78,
+      "t_pit_refuel_per_kg": null,
+      "t_pit_tirechange": 2.496,
+      "t_pit_driverchange": null,
+      "pit_location": 50.0,
+      "strategy": [
+        {
+          "inlap": 0,
+          "compound": "A5",
+          "tire_start_age": 2,
+          "refuel_mass": 0.0,
+          "driver_initials": "VET"
+        },
+        {
+          "inlap": 20,
+          "compound": "A4",
+          "tire_start_age": 0,
+          "refuel_mass": 0.0,
+          "driver_initials": ""
+        }
+      ],
+      "p_grid": 3
+    },
+    "7": {
+      "car_no": 7,
+      "team": "Ferrari",
+      "manufacturer": "Ferrari",
+      "color": "#DC0000",
+      "t_car": 0.37,
+      "m_fuel": 100.0,
+      "b_fuel_per_lap": 1.78,
+      "t_pit_refuel_per_kg": null,
+      "t_pit_tirechange": 2.496,
+      "t_pit_driverchange": null,
+      "pit_location": 50.0,
+      "strategy": [
+        {
+          "inlap": 0,
+          "compound": "A5",
+          "tire_start_age": 2,
+          "refuel_mass": 0.0,
+          "driver_initials": "RAI"
+        },
+        {
+          "inlap": 15,
+          "compound": "A4",
+          "tire_start_age": 0,
+          "refuel_mass": 0.0,
+          "driver_initials": ""
+        }
+      ],
+      "p_grid": 5
+    },
+    "3": {
+      "car_no": 3,
+      "team": "RedBull",
+      "manufacturer": "RedBull",
+      "color": "#1E41FF",
+      "t_car": 0.244,
+      "m_fuel": 100.0,
+      "b_fuel_per_lap": 1.78,
+      "t_pit_refuel_per_kg": null,
+      "t_pit_tirechange": 2.408,
+      "t_pit_driverchange": null,
+      "pit_location": 50.0,
+      "strategy": [
+        {
+          "inlap": 0,
+          "compound": "A5",
+          "tire_start_age": 2,
+          "refuel_mass": 0.0,
+          "driver_initials": "RIC"
+        },
+        {
+          "inlap": 19,
+          "compound": "A4",
+          "tire_start_age": 0,
+          "refuel_mass": 0.0,
+          "driver_initials": ""
+        }
+      ],
+      "p_grid": 4
+    },
+    "33": {
+      "car_no": 33,
+      "team": "RedBull",
+      "manufacturer": "RedBull",
+      "color": "#1E41FF",
+      "t_car": 0.244,
+      "m_fuel": 100.0,
+      "b_fuel_per_lap": 1.78,
+      "t_pit_refuel_per_kg": null,
+      "t_pit_tirechange": 2.408,
+      "t_pit_driverchange": null,
+      "pit_location": 50.0,
+      "strategy": [
+        {
+          "inlap": 0,
+          "compound": "A5",
+          "tire_start_age": 2,
+          "refuel_mass": 0.0,
+          "driver_initials": "VER"
+        },
+        {
+          "inlap": 14,
+          "compound": "A4",
+          "tire_start_age": 0,
+          "refuel_mass": 0.0,
+          "driver_initials": ""
+        }
+      ],
+      "p_grid": 6
+    }
+  }
+}
